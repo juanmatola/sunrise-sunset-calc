@@ -4,6 +4,7 @@ SunCalc is a simple Java project that calculates the sunrise and sunset times ba
 
 References:
   - [General Solar Position Calculations - NOAA](https://gml.noaa.gov/grad/solcalc/solareqns.PDF)
+  - [Useful simulator](http://astro.unl.edu/naap/motion3/animations/sunmotions.html) 
   
 
 ## Requirements
@@ -43,6 +44,6 @@ SunCalc sunCalculator = new SunCalc(day);
 LocalTime sunrise = sunCalculator.calculateSunriseHour(location);
 LocalTime sunset = sunCalculator.calculateSunsetHour(location);
 
-System.out.println("Sunrise - " + sunrise);
-System.out.println("Sunset - " + sunset);
+System.out.println("Sunrise: " + sunrise);
+System.out.println("Sunset: " + sunset);
 ```
